@@ -1227,6 +1227,10 @@ Header Area
   border-radius: var(--borderRadius);
   font-size: 15px;
   border: 1px solid var(--primaryColor);
+  -webkit-border-radius: var(--borderRadius);
+  -moz-border-radius: var(--borderRadius);
+  -ms-border-radius: var(--borderRadius);
+  -o-border-radius: var(--borderRadius);
 }
 @media (min-width: 1366px) and (max-width: 1499px) {
   .headerarea__button a {
